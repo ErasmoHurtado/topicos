@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/api/users/verificacion-success" method="POST">
+        <label>El registro debe ser verificado para ser ingresado en la BD, </label>
+        <label>para ello debe ingresar el codigo que fue enviado a su correo: </label>
+        <input type="number" name="codigo" id="codigo" placeholder="Ingrese su codigo aqui">
+        <button type="submit" class="formulario__verificacion">Verificar Correo</button>
+    </form>
+</body>
+</html>
